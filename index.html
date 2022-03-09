@@ -2,25 +2,76 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <link href="style.css" rel="stylesheet" />
+  
+    <title>Landing Page</title>
   </head>
   <body>
-      <center>
-    <main class="page">
-          <div class="hero-text">
-            <img src="./assets/logo.svg" alt="simpl recipes" />
-        </div>
-        <div class="tags-container">
-          <div class="tags-list">
-            <a href="dish.html">Dish</a>
-            <a href="appertizer.html">Appetizers</a>
-            <a href="drinks.html">Drinks</a>
+    <div class="wrapper">
+      <div id="first">
+        <nav>
+          <div id="navLogo">
+            <img src = "assets/logo.svg" width="175px">
           </div>
-          <h1>simple recipes</h1>
-          <p>Simply Recipes is here to help you cook delicious meals with less stress and more joy. We offer recipes and cooking advice for home cooks, by home cooks.
-            <img src="../Odin/assets/recipes/rec.jpg" alt="api" width="550" height="333">
-          </p>
+          <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Recipes</li>
+          </ul>
+        </nav>
+        <div id="hero">
+          <div id="heroLeft">
+            <h2>Food is Life</h2>
+            <p>
+              “Food is symbolic of love when words are inadequate.”
+            </p>
+            <button class="Read">Read More</button>
+          </div>
+          <div id="heroRight">
+            <img
+              alt="Recipe"
+              src="../Odin/assets/recipes/rec.jpg"
+            />
+          </div>
         </div>
-    </main>
-</center>
+      </div>
+    </div>
+    <div class="wrapper" id="thirdWrapper">
+      <div class="sectionCenter" id="third">
+        <img src = "assets/favicon.ico">
+        <h3>
+          “Food for us comes from our relatives, whether they have wings or fins or roots. That is how we consider food. Food has a culture. It has a history. It has a story. It has relationships.”
+        </h3>
+      </div>
+    </div>
+    <div class="wrapper">
+      <div class="sectionCenter" id="second">
+        <h3>Recipes</h3>
+        <div id="randomInfoWrapper">
+          <ul class="randomInfo">
+            <li><div class="randomInfoBox" id="box1">
+              <img src = "assets/recipes/appetizer1.jpg" width="175px" height="175px">
+            </div></li>
+            <li><a href="appertizer.html">Appetizer</a></li>
+          </ul>
+          <ul class="randomInfo">
+            <li><div class="randomInfoBox" id="box2">
+              <img src = "assets/recipes/drinks2.jpg" width="175px" height="175px">
+            </div></li>
+            <li><a href="drinks.html">Drinks</a></li>
+          </ul>
+          <ul class="randomInfo">
+            <li><div class="randomInfoBox" id="box3">
+              <img src = "assets/recipes/dish1.jpg" width="175px" height="175px">
+            </div></li>
+            <li><a href="dish.html">Dish</a></li>
+          </ul>
+        
+        </div>
+      </div>
+    </div>
+    <footer>
+  <h3>Enjoy</h3>
+    </footer>
   </body>
 </html>
